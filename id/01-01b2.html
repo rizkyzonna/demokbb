@@ -1,0 +1,67 @@
+<div class="box-head">
+		<span class="pull-right">Halaman 1 dari 2</span>
+		<span class="clearfix"></span>
+	</div>
+	<div class="box-head">
+		<input type="checkbox" class='check-all'><span>Daftar Rekening</span>
+	</div>
+	<div class="box-list">
+		<div class="row">
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" class="checkbox-data" value="001-77701 / ATP SME (SGD)"> 001-77701 / ATP SME (SGD)
+			</div>
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" class="checkbox-data" value="001-77702 / ATP SME (SGD)"> 001-77702 / ATP SME (SGD)
+			</div>
+		</div>
+	</div>
+	<div class="box-list">
+		<div class="row">
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" class="checkbox-data" value="001-77703 / ATP SME (SGD)"> 001-77703 / ATP SME (SGD)
+			</div>
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" class="checkbox-data" value="001-77704 / ATP SME (SGD)"> 001-77704 / ATP SME (SGD)
+			</div>
+		</div>
+	</div>
+	<div class="box-list">
+		<div class="row">
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" class="checkbox-data" value="001-77705 / ATP SME (SGD)"> 001-77705 / ATP SME (SGD)
+			</div>
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" class="checkbox-data" value="001-77706 / ATP SME (SGD)"> 001-77706 / ATP SME (SGD)
+			</div>
+		</div>
+	</div>
+	<div class="box-list">
+		<div class="row">
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" class="checkbox-data" value="001-77707 / ATP SME (SGD)"> 001-77707 / ATP SME (SGD)
+			</div>
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" class="checkbox-data" value="001-77708 / ATP SME (SGD)"> 001-77708 / ATP SME (SGD)
+			</div>
+		</div>
+	</div>
+	<div class="box-list">
+		<div class="row">
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" class="checkbox-data" value="001-77709 / ATP SME (SGD)"> 001-77709 / ATP SME (SGD)
+			</div>
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" class="checkbox-data" value="001-77710 / ATP SME (SGD)"> 001-77710 / ATP SME (SGD)
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	$('.check-all').on('click',function(){
+	if(this.checked) {
+		$(".checkbox-data").attr('checked',true);
+	} else {
+		$('.checkbox-data').removeAttr('checked');
+	}
+	});
+</script>
