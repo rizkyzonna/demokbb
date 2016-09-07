@@ -1,0 +1,131 @@
+<div class="title">
+	Informasi Rekening - Informasi Saldo
+</div>
+<div class="box">
+	<div class="box-head">
+		<span class="pull-right">Halaman 1 dari 5</span>
+		<span class="clearfix"></span>
+	</div>
+	<div class="box-head">
+		<input type="checkbox">	<span>Daftar Rekening</span>
+	</div>
+	<div class="box-list">
+		<div class="row">
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" value="001-77701 / ATP SME (SGD)"> 001-77701 / ATP SME (SGD)
+			</div>
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" value="001-77702 / ATP SME (SGD)"> 001-77702 / ATP SME (SGD)
+			</div>
+		</div>
+	</div>
+	<div class="box-list">
+		<div class="row">
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" value="001-77703 / ATP SME (SGD)"> 001-77703 / ATP SME (SGD)
+			</div>
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" value="001-77704 / ATP SME (SGD)"> 001-77704 / ATP SME (SGD)
+			</div>
+		</div>
+	</div>
+	<div class="box-list">
+		<div class="row">
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" value="001-77705 / ATP SME (SGD)"> 001-77705 / ATP SME (SGD)
+			</div>
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" value="001-77706 / ATP SME (SGD)"> 001-77706 / ATP SME (SGD)
+			</div>
+		</div>
+	</div>
+	<div class="box-list">
+		<div class="row">
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" value="001-77707 / ATP SME (SGD)"> 001-77707 / ATP SME (SGD)
+			</div>
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" value="001-77708 / ATP SME (SGD)"> 001-77708 / ATP SME (SGD)
+			</div>
+		</div>
+	</div>
+	<div class="box-list">
+		<div class="row">
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" value="001-77709 / ATP SME (SGD)"> 001-77709 / ATP SME (SGD)
+			</div>
+			<div class="col-md-6">
+				<input type="checkbox" name="rek" value="001-77710 / ATP SME (SGD)"> 001-77710 / ATP SME (SGD)
+			</div>
+		</div>
+	</div>
+</div>
+<div class="sort-word">
+	<a href="#">Cari berdasarkan No / Nama Rek</a>
+</div>
+<div class="sort-form hidden">
+	<div>No/Nama Rek:</div>
+	<input type="text">
+	<button class="button-sort">Tampilkan</button>
+</div>
+	<a>
+		<div class="button-send old">Kirim</div>
+	</a>
+	<a>
+		<div class="button-next old">Berikutnya</div>
+	</a>
+		<a>
+		<div class="button-next old hidden">Sebelumnya</div>
+	</a>
+
+	<div class="clearfix"></div>
+
+<div class="box-fade">
+	<a>
+		<div class="button-send">Tambah Ke Daftar</div>
+	</a>
+	<a>
+		<div class="button-next">Berikutnya</div>
+	</a>
+	<a>
+		<div class="button-next hidden">Sebelumnya</div>
+	</a>
+	<div class="clearfix"></div>
+	<div class="box">
+		<div class="box-head">
+			Daftar Rekening yang akan ditampilkan
+		</div>
+		<div class="box-list-rek">
+			
+		</div>
+	</div>
+
+	<a>
+		<div class="button-send">Kirim</div>
+	</a>
+	<a>
+		<div class="button-next reset-list">Reset Daftar</div>
+	</a>
+</div>
+
+<script type="text/javascript">
+$('.sort-word a').on('click', function() {
+    $('.sort-form').removeClass('hidden');
+    $(this).addClass('hidden');
+    $('.old').addClass('hidden');
+    $('.box-fade').show('fadeIn');
+});
+$('.button-send').on('click', function(){
+	var rek = [];
+    $.each($("input[name='rek']:checked"), function(){            
+        rek.push($(this).val());
+    });
+    $('.box-list-rek').html('');
+    for (var i = rek.length - 1; i >= 0; i--) {
+    	$('.box-list-rek').append('<div class="box-list"><div class="row"><div class="col-md-12">'+rek[i]+'</div></div></div>');
+    };
+});
+$('.reset-list').on('click', function() {
+	$('.box-list-rek').html('');
+});
+</script>

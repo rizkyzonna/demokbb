@@ -1,0 +1,39 @@
+
+        <h4>Registrasi Kartu - Tambah kartu</h4>
+        <span id="success"></span>
+        <span>Informasi Kartu</span>
+        <table class="table table-striped">
+          <tr>
+            <td>Nomor Kartu</td>
+            <td><span id="cek-nk"></span></td>
+          </tr>
+          <tr>
+            <td>Nomor Rekening</td>
+            <td><span id="cek-nr"></span></td>
+          </tr>
+          <tr>
+            <td>Saldo Maksimum</td>
+            <td><span id="cek-smax"></span></td>
+          </tr>
+          <tr>
+            <td>Plafon Top Up Per Hari</td>
+            <td><span id="cek-pth"></span></td>
+          </tr>
+          <tr>
+            <td>Plafon Top Up Per Bulan</td>
+            <td><span id="cek-ptb"></span></td>
+          </tr>
+          <tr>
+            <td>Keterangan</td>
+            <td><span id="cek-kt"></span></td>
+          </tr>
+        </table>
+        <input id="sendData" type="submit" value="kirim" name="" onclick="sendData()">
+        <input id="backToInput" type="submit" value="kembali" name="" onclick="">
+      </div>
+      <div class="copyright">&copy; 2016 BCA. Hak cipta dilindungi undang-undang.</div>
+      <script type="text/javascript">
+      $(document).ready(function(){
+        viewStorage();
+      });
+      </script>

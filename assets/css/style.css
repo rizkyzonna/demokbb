@@ -1,0 +1,350 @@
+
+.wrapper {
+  width: 1024px;
+  height: 768px;
+  margin: 0 auto;
+  border: 2px solid #bebbbe;
+  border-top: none;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.header {
+  height: 80px;
+  width: 100%;
+  padding: 0 10px;
+  position: relative;
+  background-color: #015daa;
+}
+.header .logo-desc {
+  color: #e6c200;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+  letter-spacing: 1px;
+  text-shadow: 3px 2px #000000;
+}
+.header-image {
+  background-color: #ffebcb;
+  height: 270px;
+  position: relative;
+}
+.header-image img {
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.header-description {
+  padding: 35px 0;
+}
+.description {
+  display: inline-block;
+  vertical-align: middle;
+  width: 280px;
+  margin-left: 50px;
+  color: #0f69ae;
+}
+.login-form {
+  width: 200px;
+  height: 400px;
+  background-color: #fff;
+  border: 2px solid #c4c4c4;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  position: absolute;
+  top: -30px;
+  right: 50px;
+  color: #0f69ae;
+}
+.login-form label {
+  color: #0f69ae;
+}
+.login-form .form-control {
+  height: 30px;
+  padding: 0 12px;
+  color: #0f69ae;
+}
+.login-button {
+  margin-top: 40px;
+}
+.login-button input {
+  background-color: #ff7211;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px 10px;
+}
+.list {
+  background-color: #358ed4;
+  height: 22px;
+  position: relative;
+}
+.inner-list {
+  background-color: #fff;
+  width: 80%;
+  height: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 10px;
+}
+.home-privacy {
+  right: 60px;
+  top: 20px;
+  position: absolute;
+  text-align: right;
+}
+.home-privacy a{
+  color: #fff;
+  text-decoration: none;
+}
+.keyBCA {
+  position: absolute;
+  top: -15px;
+  right: 265px;
+  display: none;
+}
+.copyright {
+  margin: 60px auto;
+  width: 320px;
+  color: #0f69ae;
+}
+.logo {
+  display: block;
+  width: 90px;
+}
+.date {
+  color: #ffffff;
+  bottom: 5px;
+  margin-top: 50px;
+}
+.sidebar {
+  background-color: #fff;
+  width: 230px;
+  height: 664px;
+  border-right: 2px solid #bebbbe;
+  padding-top: 20px;
+  border-bottom-left-radius: 5px;
+}
+.main {
+  background-color: #ffffff;
+  color: #4579a2;
+  padding: 20px;
+  width: 790px;
+  max-height: 664px;
+  overflow: auto;
+  position: relative;
+}
+.main a {
+  text-decoration: none;
+}
+.sidebar, .main {
+  float: left;
+}
+.sidebar ul {
+  list-style-type: none;
+  color: #4579a2;
+}
+.sidebar li {
+  cursor: pointer;
+  margin-left: -15px;
+}
+.menu {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 200px;
+  position: relative;
+}
+.menu img {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.menu ul li img {
+  position: initial;
+}
+.menu li {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: -25px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.menu li:before {
+  content: url(../img/segitiga-kuning.png);
+  margin-right: 5px;
+}
+.menu li:last-child(){
+  margin-bottom: 0;
+}
+.sub1, .sub2 {
+  font-size: 1px;
+}
+.sidebar a {
+  color: #4579a2;
+  text-decoration: none;
+}
+.table {
+  width: 500px;
+}
+table {
+    tbody tr:first-child td:first-child {
+        .border-radius(4px 0 0 0);
+    }
+    tbody tr:first-child td:last-child {
+        .border-radius(0 4px 0 0);
+    }
+}
+.logout {
+  width: 100px;
+  display: block;
+}
+.logout a, .logout img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.logout a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.title {
+  color: #4579a2;
+}
+
+.box {
+  width: 100%;
+  border: 1px solid #bebbbe;
+  border-radius: 5px;
+  color: #0a406f;
+}
+.box-head {
+  background-color: #dce7f7;
+  border-bottom: 1px solid #bebbbe;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+.box-head input, .box-head span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.box-head input, .box-list input {
+  margin: 0;
+  margin-right: 10px;
+}
+.box-body{
+  padding: 3px 10px;
+}
+.box-body div, .box-body select, .box-body input, .box-body input[type='radio'] {
+  display: inline-block;
+  vertical-align: middle;
+}
+.box-list .div-list, .box-list select, .box-list input, .box-list input[type='radio'] {
+  display: inline-block;
+  vertical-align: middle;
+}
+.box-list input[type='radio'] {
+  margin: 0;
+}
+.box-list .list-year, .box-list .list-month, .box-list .list-date, .box-list .list-jenis {
+  margin: 0;
+}
+.box-body input.wide {
+  margin-left: 10px;
+  width: 300px;
+}
+.box-body input.wide:before {
+  content: 'P';
+}
+.box-body .mr {
+  margin-left: 80px;
+}
+.box-list select {
+  margin-left: 300px;
+  height: 26px;
+}
+.box-body select {
+  height: 26px;
+}
+.box-body .row {
+  width: 100%;
+}
+.box-list {
+  padding: 5px 10px;
+  border-bottom: 1px solid #bebbbe;
+}
+.top-0{
+  margin-top: 0 !important;
+}
+.top-20 {
+  margin-top: 20px !important;
+}
+.bottom-0 {
+  margin-bottom: 0 !important;
+}
+.left-0 {
+  margin-left: 0 !important;
+}
+.left-10 {
+  margin-left: 10px !important;
+}
+.left-20 {
+  margin-left: 20px !important;
+}
+.left-30 {
+  margin-left: 30px !important
+}
+.right-10 {
+  margin-right: 10px !important;
+}
+.right-30 {
+  margin-right: 30px !important;
+}
+
+.button, .button-next, .button-send {
+  padding: 2px 25px;
+  background-color: #fefefe;
+  color: #0a406f;
+  border: 1px solid #bebbbe;
+  border-radius: 2px;
+  text-decoration: none;
+  float: right;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.button-next {
+  margin-right: 10px;
+}
+.sort-word {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.sort-word a:hover {
+  text-decoration: underline;
+}
+.sort-form {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.sort-form div, .sort-form input, .sort-form button {
+  display: inline-block;
+  vertical-align: middle;
+}
+.button-sort {
+  padding: 2px 25px;
+  background-color: #fefefe;
+  color: #0a406f;
+  border: 1px solid #bebbbe;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.box-fade {
+  display: none;
+}
+.sl-gr {
+  margin-left: 300px;
+}

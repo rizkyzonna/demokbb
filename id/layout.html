@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" charset="utf-8">
+    <link rel="stylesheet" href="../assets/css/style.css" charset="utf-8">
+    <script src="../assets/js/jquery.min.js" charset="utf-8"></script>
+    <script src="../assets/js/bootstrap.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo pull-left">
+          <img src="../assets/img/logo.png" height="70" alt="" />
+        </div>
+        <span class="logo-desc">B I S N I S</span>
+        <div class="date pull-right">
+          Tanggal : <span id="date"></span> Jam : <span id="time"></span>
+        </div>
+      </div>
+      <div class="list">
+        <div class="logout">
+          <img src="../assets/img/logout-img.png" height="15" alt="" /><a href="../index.html">LOGOUT</a>
+        </div>
+        <div class="inner-list">
+        </div>
+      </div>
+    <div class="sidebar">
+      <ul>
+          <li class="menu">Informasi Rekening <img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="01-01a.html"> Informasi Saldo</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="01-02a.html"> Mutasi Rekening</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="01-03a.html"> Rekening Koran</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="01-04a.html"> Laporan Debit BCA</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="01-05a.html"> Laporan Kartu Kredit</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="01-06a.html"> Tagihan Kartu Kredit BCA</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="01-07a.html"> Laporan Pembayaran</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="01-08a.html"> Laporan MT640</li></a>
+              </ul>
+          </li>
+          <li class="menu">Transfer Dana <img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Daftar Transfer
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="02-01-01a.html"> Tambah</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="02-01-02a.html"> Lihat/Ubah/Hapus</li></a>
+                    </ul>
+                  </li>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Transfer Dana
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="02-02-01a.html"> Ke Rekening Sendiri</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="02-02-02a.html"> Ke Rekening BCA Lainnya</li>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="02-02-03a.html"> Ke BCA Virtual Account</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="02-02-04a.html"> Ke Ke Rekening Bank Lain Dalam Negeri</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="02-02-05a.html"> Valas Ke Rekening Bank Lain</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="02-02-06a.html"> Otorisasi Transaksi</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="02-02-07a.html"> Status Transaksi</li></a>
+                    </ul>
+                  </li>
+              </ul>
+          </li>
+          <li class="menu">B2B Pertamina <img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="03-01a.html"> Tunai Produk Umum</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="03-02a.html"> Tunai Alokasi Produk/Pra-Bayar</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="03-03a.html"> Kredit</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="03-04a.html"> Otorisasi Transaksi</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="03-05a.html"> Status Transaksi</li></a>
+              </ul>
+          </li>
+          <li class="menu">Registrasi Kartu <img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li data-url="04-01a.html">Tambah Kartu</li>
+                  <li data-url="04-02a.html">Ubah Kartu</li>
+                  <li data-url="04-03a.html">Hapus Kartu</li>
+                  <li data-url="04-04a.html">Lihat Kartu</li>
+                  <li data-url="04-05a.html">Otorisasi Transaksi</li>
+                  <li data-url="04-06a.html">Status Transaksi</li>
+                  <li data-url="04-07a.html">Laporan</li>
+              </ul>
+          </li>
+          <li class="menu">B2B e-Commerce<img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="05-01a.html"> B2B e-Commerce</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="05-02a.html"> Laporan</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="05-03a.html"> Otorisasi Transaksi</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="05-04a.html"> Status Transaksi</li></a>
+              </ul>
+          </li>
+          <li class="menu">Pembayaran Tagihan <img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Daftar Pembayaran
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="06-01-01a.html"> Tambah</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="06-01-02a.html"> Lihat/Ubah/Hapus</li></a>
+                    </ul>
+                  </li>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Buat Pembayaran Tagihan
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="06-02-01a.html"> Pembayaran Tagihan</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="06-02-02a.html"> Multi Pembayaran Tagihan</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="06-02-03a.html"> Otorisasi Transaksi</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="06-02-04a.html"> Status Transaksi</li></a>
+                    </ul>
+                  </li>
+              </ul>
+          </li>
+          <li class="menu">e-Billing Pajak <img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Upload e-Billing Pajak
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="07-01-01a.html"> Upload</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="07-01-02a.html"> Otorisasi Transaksi</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="07-01-03a.html"> Status Transaksi</li></a>
+                    </ul>
+                  </li>
+              </ul>
+          </li>
+          <li class="menu">Multi Transfer <img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Payroll
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-01-01a.html"> Upload</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-01-02a.html"> Otorisasi Transaksi</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-01-03a.html"> Status Transaksi</li></a>
+                    </ul>
+                  </li>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Auto-collection
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-02-01a.html"> Upload</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-02-01a.html"> Otorisasi Transaksi</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-02-01a.html"> Status Transaksi</li></a>
+                    </ul>
+                  </li>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Auto-credit
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-03-01a.html"> Upload</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-03-01a.html"> Otorisasi Transaksi</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-03-01a.html"> Status Transaksi</li></a>
+                    </ul>
+                  </li>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Payroll Contingency
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-04-01a.html"> Upload</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-04-01a.html"> Otorisasi Transaksi</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="08-04-01a.html"> Status Transaksi</li></a>
+                    </ul>
+                  </li>
+              </ul>
+          </li>
+          <li class="menu">BCA Virtual Account<img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="09-01a.html"> Upload File Pelanggan</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="09-02a.html"> Otorisasi Transaksi</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="09-03a.html"> Status Transaksi</li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="09-04a.html"> Laporan BCA Virtual Account</li></a>
+              </ul>
+          </li>
+          <li class="menu">Account Sweeping <img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Buat Sweeping
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="10-01-01a.html"> Sweep In</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="10-01-02a.html"> Sweep Out</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="10-01-03a.html"> Sweep Balance</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="10-01-04a.html"> Otorisasi Transaksi</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="10-01-05a.html"> Status Transaksi</li></a>
+                    </ul>
+                  </li>
+              </ul>
+          </li>
+          <li class="menu">Lain-Lain <img src="../assets/img/segitiga-biru.png">
+              <ul>
+                  <li><img src="../assets/img/segitiga-kuning.png"> Informasi
+                    <ul>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="11-01-01a.html"> Kurs Valas</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="11-01-02a.html"> Suku Bunga</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="11-01-03a.html"> Histori Transaksi</li></a>
+                      <li><img src="../assets/img/segitiga-kuning.png"><a href="11-01-04a.html"> Batas Penggunaan Transaksi</li></a>
+                    </ul>
+                  </li>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="11-02a.html"> Contact BCA
+                  </li></a>
+                  <li><img src="../assets/img/segitiga-kuning.png"><a href="11-02b.html"> Email Corporate
+                  </li></a>
+              </ul>
+          </li>
+      </ul>
+    </div>
+    <div class="main">
+      <h4>Selamat Datang di KlikBCA Bisnis</h4>
+      <span>Mulai tanggal 17 Juni 2016, Anda dapat melakukan pembayaran pajak satuan pada menu <strong>e-Billing Pajak</strong>.<br /><br /></span>
+
+      <div class="copyright">&copy; 2016 BCA. Hak cipta dilindungi undang-undang.</div>
+    </div>
+    <div class="clearfix"></div>
+    </div>
+  <script src="../assets/js/script.js" charset="utf-8"></script>
+  </body>
+</html>
